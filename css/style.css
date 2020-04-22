@@ -14,13 +14,15 @@
 body {
     font-family: 'lato', 'ariel', sans-serif;
     color:#555;
-    font-size:
+    font-size: 1.250em;
 }
 
 /*----------HEADINGS-------------*/
 
 h1 {
-    font-size:
+    font-size: 250%;
+    font-weight: 300;
+
 }
 
 /*------------------------------------------------*/
