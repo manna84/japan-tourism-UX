@@ -36,6 +36,7 @@ h1,h2 {
 }
 
 h1 {
+    font-weight: 300;
     font-size: 250%;
     color: #fff;
     letter-spacing: .125em;
@@ -97,7 +98,6 @@ header {
     border-bottom: .125em solid transparent;
     padding-bottom: .313em;
     transition: color .2s, border-bottom .2s;
-
 }
 
 .main-nav li a:hover {
