@@ -107,7 +107,7 @@ header {
 }
 
 /*------------------------------------------------*/
-/*----------ABOUT JAPAN SECTION-------------*/
+/*----------ABOUT JAPAN ARTICLE-------------*/
 /*------------------------------------------------*/
 
 .about-body {
@@ -115,3 +115,27 @@ header {
     margin: 1.125em 0 0 5%;
     width: 90%;
 }
+
+.section-places {
+    display: flex;
+    margin-top: 2.5em;
+}
+
+.place-photo {
+    max-width: 45%;
+    overflow: hidden;
+    border-radius: .4em;
+}
+
+.place-photo img {
+    max-width: 100%;
+    opacity: .7;
+    transform: scale(1.15);
+}
+
+.place-photo img:hover {
+    transform: scale(1);
+    opacity: 1;
+    transition: opacity .2s, transform .2s;
+}
+
