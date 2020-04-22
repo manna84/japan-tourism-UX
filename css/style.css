@@ -17,6 +17,12 @@ body {
     font-size: 1.250em;
 }
 
+/*----------REUSABLE-------------*/
+
+.row {
+    width: 75em;
+}
+
 /*----------HEADINGS-------------*/
 
 h1 {
@@ -45,3 +51,9 @@ header {
     left: 40%;
     transform: translate(-50%,-50%);
 }
+
+.main-banner {
+    display: flex;
+    justify-content: space-between;
+}
+
