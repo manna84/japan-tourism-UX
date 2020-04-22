@@ -62,3 +62,14 @@ header {
     height: 4em;
     margin-top: 1.250em;
 }
+
+.main-nav {
+    list-style: none;
+    display: flex;
+    margin-top: 2.5em;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    margin-right: 2.5em;
+}
