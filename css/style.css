@@ -58,3 +58,7 @@ header {
     justify-content: space-between;
 }
 
+.main-logo {
+    height: 4em;
+    margin-top: 1.250em;
+}
