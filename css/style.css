@@ -14,7 +14,18 @@
 body {
     font-family: 'lato', 'ariel', sans-serif;
     color:#555;
+    font-size:
 }
+
+/*----------HEADINGS-------------*/
+
+h1 {
+    font-size:
+}
+
+/*------------------------------------------------*/
+/*----------HEADER-------------*/
+/*------------------------------------------------*/
 
 header {
     background-image: url(img/Background-hero-image.jpg);
