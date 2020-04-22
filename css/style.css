@@ -30,15 +30,31 @@ article {
 
 /*----------HEADINGS-------------*/
 
-h1 {
-    font-size: 250%;
-    font-weight: 300;
-    color: #fff;
+h1,h2 {
     text-transform: uppercase;
     word-spacing: .250em;
+}
+
+h1 {
+    font-size: 250%;
+    color: #fff;
     letter-spacing: .125em;
 }
 
+h2 {
+    font-size: 150%;
+    text-align: center;
+}
+
+h2:after {
+    display: block;
+    clear: both;
+    content: ' ';
+    height: 5px;
+    width: 15%;
+    background-color: #c0392b;
+    margin: .5em auto;
+}
 /*------------------------------------------------*/
 /*----------HEADER-------------*/
 /*------------------------------------------------*/
