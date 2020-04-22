@@ -74,4 +74,9 @@ header {
     margin-right: 2.5em;
     color: #fff;
     text-transform: uppercase;
+    transition: color .2s;
+}
+
+.main-nav li a:hover {
+    color: #c0392b;
 }
