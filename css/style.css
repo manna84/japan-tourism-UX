@@ -72,4 +72,6 @@ header {
 .main-nav li a {
     text-decoration: none;
     margin-right: 2.5em;
+    color: #fff;
+    text-transform: uppercase;
 }
