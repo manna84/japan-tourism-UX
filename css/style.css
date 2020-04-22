@@ -20,7 +20,8 @@ body {
 /*----------REUSABLE-------------*/
 
 .row {
-    width: 75em;
+   width: 1200px;
+    margin: 0 auto;
 }
 
 /*----------HEADINGS-------------*/
