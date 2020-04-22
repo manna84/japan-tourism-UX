@@ -22,3 +22,10 @@ header {
     background-position: center;
     background-size: cover;
 }
+
+.main-heading {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
