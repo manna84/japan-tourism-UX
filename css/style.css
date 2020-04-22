@@ -17,5 +17,8 @@ body {
 }
 
 header {
-    background-image:
+    background-image: url(img/Background-hero-image.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
 }
