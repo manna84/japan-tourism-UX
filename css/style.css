@@ -123,19 +123,37 @@ header {
 
 .place-photo {
     max-width: 45%;
+}
+
+.place-big {
     overflow: hidden;
     border-radius: .4em;
 }
 
-.place-big {
+.place-big img {
     max-width: 100%;
     opacity: .7;
     transform: scale(1.15);
 }
 
-.place-big:hover {
+.place-big img:hover {
     transform: scale(1);
     opacity: 1;
     transition: opacity .2s, transform .2s;
 }
+
+.clousal-photo {
+    display: flex;
+    margin-top: 1.25em;
+    max-width: 100%;
+
+}
+
+.place-short {
+    height: 5em;
+    margin-left: 2em;
+    border-radius: .2em;
+    border: .125em solid #000;
+}
+
 
