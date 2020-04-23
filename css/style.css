@@ -216,16 +216,18 @@ header {
     font-family: 'effra','ariel',sans-serif;
 }
 
-.section-art figure {
-    max-width: 50%;
-}
+
 
 .section-art img {
-    max-width: 100%;
+    max-width: 50%;
 }
 
 .bonsai-art {
     padding: 6%;
     background-color: #EDF1F2;
+}
+
+.bonsai-art p {
+    margin-top: 1.5em;
 }
 
