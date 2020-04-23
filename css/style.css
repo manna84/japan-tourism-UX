@@ -219,11 +219,10 @@ header {
 
 
 .section-art img {
-    max-width: 50%;
+    max-width: 60%;
 }
 
 .bonsai-art {
-    padding: 6%;
     background-color: #EDF1F2;
 }
 
