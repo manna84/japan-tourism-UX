@@ -127,13 +127,13 @@ header {
     border-radius: .4em;
 }
 
-.place-photo img {
+.place-big {
     max-width: 100%;
     opacity: .7;
     transform: scale(1.15);
 }
 
-.place-photo img:hover {
+.place-big:hover {
     transform: scale(1);
     opacity: 1;
     transition: opacity .2s, transform .2s;
