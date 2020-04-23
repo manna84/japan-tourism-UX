@@ -67,7 +67,8 @@ h2:after {
 h3 {
     font-size: 250%;
     letter-spacing: .125em;
-    font-weight:
+    font-weight: 800;
+    color: #c0392b;
 }
 
 /*----------BUTTONS-------------*/
@@ -212,6 +213,7 @@ header {
 
 .section-art {
     display: flex;
+    font-family: 'effra','ariel',sans-serif;
 }
 
 .section-art figure {
