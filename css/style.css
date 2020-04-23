@@ -206,4 +206,12 @@ header {
     display: flex;
 }
 
+.section-art figure {
+    max-width: 50%;
+}
+
+.section-art img {
+    max-width: 100%;
+}
+
 
