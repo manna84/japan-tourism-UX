@@ -72,6 +72,7 @@ h2:after {
 .btn:hover {
     opacity: .7;
     transition: opacity .2s;
+
 }
 
 .btn a {
