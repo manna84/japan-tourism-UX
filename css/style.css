@@ -28,6 +28,10 @@ article {
     padding-top: 2.5em;
 }
 
+p {
+    line-height: 145%;
+}
+
 /*----------HEADINGS-------------*/
 
 h1,h2 {
@@ -57,6 +61,27 @@ h2:after {
     background-color: #c0392b;
     margin: .5em auto;
 }
+
+/*----------BUTTONS-------------*/
+
+.btn {
+    padding: 15px 25px;
+    background-color: #c0392b;
+}
+
+.btn:hover {
+    opacity: .7;
+    transition: opacity .2s;
+}
+
+.btn a {
+    text-decoration: none;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
 /*------------------------------------------------*/
 /*----------HEADER-------------*/
 /*------------------------------------------------*/
@@ -134,6 +159,7 @@ header {
     max-width: 100%;
     opacity: .7;
     transform: scale(1.15);
+    border-radius: .4em;
 }
 
 .place-big img:hover {
@@ -149,11 +175,25 @@ header {
 
 }
 
-.place-short {
+.clousal-photo img {
     height: 5em;
     margin-left: 2em;
     border-radius: .2em;
-    border: .125em solid #000;
+    border: .15em solid #c0392b;
 }
 
+.clousal-photo img:hover {
+    opacity: .8;
+    transition: opacity .2s;
+}
 
+.about-desc {
+    text-align: center;
+    width: 30%;
+    margin: 2.5em auto;
+}
+
+.about-desc p {
+    margin-bottom: .7em;
+    font-size: 110%;
+}
