@@ -76,11 +76,11 @@ h3 {
 .btn {
     padding: 10% .125em;
     border-radius: 200px;
-    background-color: #c0392b;
+    background-color: transparent;
     z-index: 1;
     position: absolute;
     top: 25%;
-    opacity: .5;
+    opacity: .8;
     border: hidden;
 }
 
