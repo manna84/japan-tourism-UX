@@ -31,6 +31,11 @@ slideBtn.forEach(button => {
                 counter--;
                 translateX +=720;
             }
+        } else {
+            if (counter !== numberOfImages) {
+                counter++;
+                translateX -=720;
+            }
         }
 
     });
