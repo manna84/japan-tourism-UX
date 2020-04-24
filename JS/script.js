@@ -18,13 +18,24 @@ typing();
 //----------------------CAROUSEL...........................
 
 const aboutSlide = document.querySelector('.about-slide');
-const aboutPics = document.querySelectorAll('.about-slide img')
-
-//BUTTONS
+const aboutPics = document.querySelectorAll('.about-slide img');
 
 const leftBtn = document.querySelector('#left-btn');
 const rightBtn = document.querySelector('#right-btn');
 
 let counter = 1;
-const size = aboutPics[0].clientWidth
+const size = aboutPics[1].clientWidth;
 
+aboutSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+
+rightBtn.addEventListener('click', ()=>{
+    aboutSlide.style.transition = "transform 0.4s ease-in-out";
+    counter++;
+    aboutSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+});
+
+leftBtn.addEventListener('click', ()=>{
+    aboutSlide.style.transition = "transform 0.4s ease-in-out";
+    counter--;
+    aboutSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+});
