@@ -74,25 +74,33 @@ h3 {
 /*----------BUTTONS-------------*/
 
 .btn {
-    padding: 15px 25px;
+    padding: 1%;
+    border-radius: 200px;
     background-color: #c0392b;
-    position: absolute;
     z-index: 1;
+    position: absolute;
+    top: 50%;
 }
 
+.btn-right {
+    left:95%;
+    margin-right: 25px;
+    transform: translate(-50%);
+}
+
+.btn-left {
+    margin-left: 10px;
+}
 
 .btn:hover {
     opacity: .7;
     transition: opacity .2s;
 }
 
-.btn a {
-    text-decoration: none;
-    font-size: 1.125em;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: #fff;
+.arrow {
+    height: 20px;
 }
+
 
 /*------------------------------------------------*/
 /*----------HEADER-------------*/
@@ -158,71 +166,15 @@ header {
     width: 720px;
     margin: auto;
     overflow: hidden;
+    position: relative;
 }
 
 .about-slide {
     display: flex;
     width: 100%;
     transform: translate(0);
-    transition: transform 0.25s;
+    transition: transform 1.5s;
 }
-
-/* .section-places {
-    display: flex;
-    margin-top: 2.5em;
-}
-
-.place-photo {
-    max-width: 45%;
-}
-
-.place-big {
-    overflow: hidden;
-    border-radius: .4em;
-}
-
-.place-big img {
-    max-width: 100%;
-    opacity: .7;
-    transform: scale(1.15);
-    border-radius: .4em;
-}
-
-.place-big img:hover {
-    transform: scale(1);
-    opacity: 1;
-    transition: opacity .2s, transform .2s;
-}
-
-.clousal-photo {
-    display: flex;
-    margin-top: 1.25em;
-    max-width: 100%;
-
-}
-
-.clousal-photo img {
-    height: 5em;
-    margin-left: 2em;
-    border-radius: .2em;
-    border: .15em solid #c0392b;
-}
-
-.clousal-photo img:hover {
-    opacity: .8;
-    transition: opacity .2s;
-}
-
-.about-desc {
-    text-align: center;
-    width: 30%;
-    margin: 2.5em auto;
-}
-
-.about-desc p {
-    margin-bottom: .7em;
-    font-size: 110%;
-} */
 
 /*------------------------------------------------*/
 /*----------ART ARTICLE-------------*/
@@ -233,8 +185,6 @@ header {
     font-family: 'effra','ariel',sans-serif;
 }
 
-
-
 .section-art img {
     max-width: 58%;
 }
@@ -243,7 +193,6 @@ header {
     padding: 6% 4%;
     background-color: #EDF1F2;
 }
-
 
 .culture-art p {
     margin-top: 1.5em;
