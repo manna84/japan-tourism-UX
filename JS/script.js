@@ -1,8 +1,9 @@
 //Typing Effect
 
 let i, text;
-i=0;
-text="Make Memories in japan";
+
+i = 0;
+text = "Make Memories in japan";
 
 function typing() {
     if(i<text.length){
@@ -11,4 +12,5 @@ function typing() {
         setTimeout(typing,100);
     }
 }
+
 typing();
