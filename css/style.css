@@ -195,6 +195,8 @@ header {
 .culture-art {
     padding: 6% 4%;
     background-color: #EDF1F2;
+    opacity: 0;
+    transform: translateY(1.125em);
 }
 
 .culture-art p {
