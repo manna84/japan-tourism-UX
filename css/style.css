@@ -156,6 +156,11 @@ header {
     margin: auto;
 }
 
+.about-slide {
+    display: flex;
+    width: 100%;
+}
+
 /* .section-places {
     display: flex;
     margin-top: 2.5em;
