@@ -15,4 +15,10 @@ function typing() {
 
 typing();
 
+//CAROUSEL
+
+const aboutSlide = document.querySelector('.about-slide');
+const aboutPics = document.querySelectorAll('.about-slide img')
+
+//BUTTONS
 
