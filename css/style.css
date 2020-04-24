@@ -151,7 +151,7 @@ header {
     width: 90%;
 }
 
-.section-places {
+/* .section-places {
     display: flex;
     margin-top: 2.5em;
 }
@@ -206,7 +206,7 @@ header {
 .about-desc p {
     margin-bottom: .7em;
     font-size: 110%;
-}
+} */
 
 /*------------------------------------------------*/
 /*----------ART ARTICLE-------------*/
