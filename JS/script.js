@@ -15,10 +15,16 @@ function typing() {
 
 typing();
 
-//CAROUSEL
+//----------------------CAROUSEL...........................
 
 const aboutSlide = document.querySelector('.about-slide');
 const aboutPics = document.querySelectorAll('.about-slide img')
 
 //BUTTONS
+
+const leftBtn = document.querySelector('#left-btn');
+const rightBtn = document.querySelector('#right-btn');
+
+let counter = 1;
+const size = aboutPics[0].clientWidth
 
