@@ -33,7 +33,8 @@ slideBtn.forEach(button => {
             }
         }
 
-
+    });
+});
 
 
 
