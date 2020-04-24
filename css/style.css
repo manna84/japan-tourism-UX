@@ -76,7 +76,10 @@ h3 {
 .btn {
     padding: 15px 25px;
     background-color: #c0392b;
+    position: absolute;
+    z-index: 1;
 }
+
 
 .btn:hover {
     opacity: .7;
