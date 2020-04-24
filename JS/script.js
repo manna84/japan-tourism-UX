@@ -24,7 +24,14 @@ const numberOfImages = document.querySelectorAll('.about-slide img').length;
 let counter = 1;
 let translateX = 0;
 
-
+slideBtn.forEach(button => {
+    button.addEventListener('click', (event) => {
+        if (event.target.id === 'left-btn') {
+            if (counter !==1) {
+                counter--;
+                translateX +=720;
+            }
+        }
 
 
 
