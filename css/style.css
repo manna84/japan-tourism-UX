@@ -154,12 +154,13 @@ header {
 .about-container {
     width: 60%;;
     margin: auto;
-    border: 2px solid #000;
 }
 
 .about-slide {
     display: flex;
     width: 100%;
+    transform: translate(0);
+    transition: transform 0.25s;
 }
 
 /* .section-places {
