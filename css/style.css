@@ -155,8 +155,9 @@ header {
 }
 
 .about-container {
-    width: 60%;;
+    width: 720px;
     margin: auto;
+    overflow: hidden;
 }
 
 .about-slide {
