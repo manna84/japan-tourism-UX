@@ -74,12 +74,14 @@ h3 {
 /*----------BUTTONS-------------*/
 
 .btn {
-    padding: 1%;
+    padding: 10% .125em;
     border-radius: 200px;
     background-color: #c0392b;
     z-index: 1;
     position: absolute;
-    top: 50%;
+    top: 25%;
+    opacity: .5;
+    border: hidden;
 }
 
 .btn-right {
@@ -89,11 +91,11 @@ h3 {
 }
 
 .btn-left {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .btn:hover {
-    opacity: .7;
+    opacity: 1;
     transition: opacity .2s;
 }
 
@@ -167,6 +169,7 @@ header {
     margin: auto;
     overflow: hidden;
     position: relative;
+    border-radius: .125em;
 }
 
 .about-slide {
