@@ -197,6 +197,7 @@ header {
     background-color: #EDF1F2;
     opacity: 0;
     transform: translateY(1.125em);
+    transition: opacity 1s,ease-in-out;
 }
 
 .culture-art p {
