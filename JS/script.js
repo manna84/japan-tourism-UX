@@ -38,39 +38,8 @@ slideBtn.forEach(button => {
             }
         }
 
+        aboutSlide.style.transform = `translateX(${translateX}px)`;
+        
     });
 });
 
-
-
-
-// const aboutSlide = document.querySelector('.about-slide');
-// const aboutPics = document.querySelectorAll('.about-slide img');
-
-// const leftBtn = document.querySelector('#left-btn');
-// const rightBtn = document.querySelector('#right-btn');
-
-// let counter = 1;
-// const size = aboutPics[1].clientWidth;
-
-// aboutSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-
-// rightBtn.addEventListener('click', ()=>{
-//     aboutSlide.style.transition = "transform 0.4s ease-in-out";
-//     counter++;
-//     aboutSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-// });
-
-// leftBtn.addEventListener('click', ()=>{
-//     aboutSlide.style.transition = "transform 0.4s ease-in-out";
-//     counter--;
-//     aboutSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-// });
-
-// aboutSlide.addEventListener('transitioned', ()=>{
-//     if (aboutPics[counter].id === 'lastcopy') {
-//     aboutSlide.style.transition = "none";
-//     counter = aboutPics.length -2;
-//     aboutSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-//     }
-// });
