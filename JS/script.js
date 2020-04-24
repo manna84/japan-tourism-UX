@@ -17,7 +17,12 @@ typing();
 
 // //----------------------CAROUSEL...........................
 
- 
+ const aboutSlide = document.querySelector('.about-slide');
+ const slideBtn = document.querySelectorAll('.btn');
+
+const numberOfImages = document.querySelectorAll('.about-slide img').length;
+let counter = 1;
+let translateX = 0;
 
 
 
