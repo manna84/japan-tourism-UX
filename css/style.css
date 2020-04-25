@@ -222,3 +222,8 @@ footer {
     padding: 4%;
 }
 
+.footer-social img {
+    height: 2em;
+    width: auto;
+}
+
