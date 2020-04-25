@@ -249,8 +249,12 @@ footer {
     display: flex;
 }
 
-.footer-social li a {
+.footer-social li {
     margin-right: 30px;
+}
+
+.footer-social li:last-of-type {
+    margin-right: 0;
 }
 
 .footer-social li a:hover {
