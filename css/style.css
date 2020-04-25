@@ -222,8 +222,14 @@ footer {
     padding: 4%;
 }
 
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
 .footer-social img {
     height: 2em;
-    width: auto;
 }
+
+
 
