@@ -227,6 +227,14 @@ footer {
     justify-content: space-between;
 }
 
+.footer-about {
+    display: flex;
+}
+
+.footer-social {
+    display: flex;
+}
+
 .footer-social img {
     height: 2em;
 }
