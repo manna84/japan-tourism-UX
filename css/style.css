@@ -81,7 +81,7 @@ h3 {
     z-index: 1;
     position: absolute;
     top: 25%;
-    opacity: .8;
+    opacity: 1;
     border: hidden;
 }
 
@@ -96,12 +96,12 @@ h3 {
 }
 
 .btn:hover {
-    opacity: 1;
+    opacity: .8;
     transition: opacity .2s;
 }
 
 .arrow {
-    height: 20px;
+    height: 30px;
 }
 
 
@@ -192,7 +192,6 @@ header {
 .section-art {
     display: flex;
     font-family: 'effra','ariel',sans-serif;
-    
 }
 
 .section-art img {
