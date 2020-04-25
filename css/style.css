@@ -231,13 +231,34 @@ footer {
     display: flex;
 }
 
+.footer-about li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 30px;
+    font-size: 90%;
+    letter-spacing: 1px;
+}
+
+.footer-about li a:hover {
+    color: #e05f1b;
+    transition: color .2s;
+}
+
 .footer-social {
     display: flex;
+}
+
+.footer-social li a {
+    margin-right: 30px;
+}
+
+.footer-social li a:hover {
+    opacity: .5;
+    transition: opacity .3s;
 }
 
 .footer-social img {
     height: 2em;
 }
-
-
 
