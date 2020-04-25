@@ -241,7 +241,8 @@ footer {
 }
 
 .footer-about li a:hover {
-    color: #e05f1b;
+    color: #c0392b;
+;
     transition: color .2s;
 }
 
