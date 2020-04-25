@@ -220,7 +220,7 @@ header {
 footer {
     background-color: #574b4b;
     margin-top: 3.5em;
-    padding: 4%;
+    padding: 5%;
 }
 
 .footer-content {
@@ -272,5 +272,5 @@ footer p {
     color: #fff;
     font-size: 80%;
     text-align: center;
-    margin-top: 3em;
+    margin-top: 4em;
 }
