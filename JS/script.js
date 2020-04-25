@@ -43,3 +43,16 @@ slideBtn.forEach(button => {
     });
 });
 
+
+//----------------------SCROLL EFFECT...........................
+
+function scrollAppear() {
+    let artText = document.querySelector('.article-art');
+    let artPosition = artText.getBoundingClientRect().top;
+    let screenPosition = window.innerHeight / 2;
+
+    if(artPosition < screenPosition) {
+        artText.classList.add('culture-appear');
+    }
+}
+    window.addEventListener('scroll',scrollAppear);

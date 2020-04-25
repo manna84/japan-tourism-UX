@@ -182,10 +182,16 @@ header {
 /*------------------------------------------------*/
 /*----------ART ARTICLE-------------*/
 /*------------------------------------------------*/
+.article-art {
+    opacity: 0;
+    transform: translateY(0);
+    transition: 1s all ease-in-out;
+}
 
 .section-art {
     display: flex;
     font-family: 'effra','ariel',sans-serif;
+    
 }
 
 .section-art img {
@@ -195,6 +201,11 @@ header {
 .culture-art {
     padding: 6% 4%;
     background-color: #EDF1F2;
+    
+}
+
+.culture-appear {
+    opacity: 1;
 }
 
 .culture-art p {
