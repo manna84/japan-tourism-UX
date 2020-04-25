@@ -17,6 +17,7 @@ body {
     font-family: 'lato', 'ariel', sans-serif;
     color:#555;
     font-size: 1.250em;
+    font-weight: 300;
 }
 
 /*----------REUSABLE-------------*/
@@ -267,3 +268,9 @@ footer {
     height: 2em;
 }
 
+footer p {
+    color: #fff;
+    font-size: 80%;
+    text-align: center;
+    margin-top: 3em;
+}
