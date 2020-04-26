@@ -4,15 +4,17 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Welcome to Japan Tourism</title>
-        <meta name="description" content="Article Tools and Components (Change this)">
-        <meta name="author" content="Your Name Here">
+        <meta name="Japan Tourism" content="Japan Tourism is involved in a broad range of activities both domestically and worldwide, to encourage international tourists from all over the world to visit Japan.
+">
+        <meta name="author" content="Maninder/Naveen">
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
         <header>
             <div class="main-heading">
-                <h1 id="text">Make Memories in japan</h1>
+                <h1 id="text"></h1>
             </div>
             <div class="main-banner row">
                 <img src="css/img/logo.svg" class="main-logo" alt="japan-logo">
@@ -33,28 +35,16 @@
                 <p class="about-body">Japan is divided into 47 prefectures and tradionally into eight regions. Approximately two-thirds of the country's terrain is mountainous and heavily forested, and less than one-eighth of its land is suitable for agriculture.</p>
             </section>
 
-            <section class="section-places">
-                <div class="place-photo">
-                    <figure class="place-big">
-                        <img src="css/img/torii.jpg" alt="torii photo">
-                    </figure>
-
-                    <div class="clousal-photo">
-                        <figure>
-                            <img src="css/img/torii.jpg">
-                        </figure>
-                        <figure>
-                            <img src="css/img/torii.jpg">
-                        </figure>
-                        <figure>
-                            <img src="css/img/torii.jpg">
-                        </figure>
-                    </div>
-                </div>
-
-                <div class="about-desc">
-                    <p>A torii  is a traditional Japanese gate most commonly found at the entrance of or within a Shinto shrine, where it symbolically marks the transition from the mundane to the sacred.<br>Torii gates were traditionally made from wood or stone, but today they can be also made of reinforced concrete, copper, stainless steel or other materials.</p>
-                    <button class="btn"><a href="#">View More</a></button>
+            <section class="about-container">
+                <button class="btn-left btn" id=left-btn><img src="css/img/left.png" alt="left arrow" class="arrow"></button>
+                <button class="btn-right btn" id=right-btn><img src="css/img/right.png" alt="right arrow" class="arrow"></button>
+                <div class="about-slide">
+                    <img src="css/img/pic-1.jpg" alt="first picture">
+                    <img src="css/img/pic-2.jpg" alt="second picture">
+                    <img src="css/img/pic-3.jpg" alt="third picture">
+                    <img src="css/img/pic-4.jpg" alt="fourth picture">
+                    <img src="css/img/pic-5.jpg" alt="fifth picture">
+                    <img src="css/img/pic-6.jpg" alt="seventh picture">
                 </div>
             </section>
         </article>
@@ -70,11 +60,11 @@
 
             <section class="section-art">
                 <div class="culture-art">
-                    <h3>Bonsai</h3>
+                    <h3>Geisha</h3>
                     <p>Bonsai is a Japanese art form using cultivation techniques to produce, in containers, small trees that mimic the shape and scale of full size trees.The Japanese tradition dates back over a thousand years.</p>
                 </div>
 
-                    <img src="css/img/geisha-art.jpg" alt="bonsai tree">
+                    <img src="css/img/geisha-art.jpg" alt="geisha">
 
             </section>
             <section class="section-art">
@@ -85,6 +75,28 @@
                 </div>
             </section>
         </article>
+
+        <footer>
+            <nav class="footer-content">
+                <ul class="footer-about">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Adventure</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+
+                <ul class="footer-social">
+                    <li><a href="#"><img src="css/img/facebook.svg" alt="facebook logo"></a></li>
+                    <li><a href="#"><img src="css/img/twitter.svg" alt="twitter logo"></a></li>
+                    <li><a href="#"><img src="css/img/instagram.svg" alt="instagram logo"></a></li>
+                    <li><a href="#"><img src="css/img/youtube.svg" alt="youtube logo"></a></li>
+                    
+                </ul>         
+            </nav>
+
+            <p>&copy 2020 Japan Tourism LLC All rights reserved.</p>
+
+        </footer>
 
 
         <script src="JS/script.js"></script>
